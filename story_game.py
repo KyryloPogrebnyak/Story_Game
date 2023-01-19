@@ -31,7 +31,6 @@ while level1_true == True:
         choice = input()
         if choice == "running":
             print("The bear caught up with you. I'm sorry. make practice and try again.")
-            
         elif choice == "pretending to be dead":
             print("You're a great actor, man. The bear believed you and left. Congratulations, you completed level1!")
             level1_true = False
